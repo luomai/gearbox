@@ -2,12 +2,10 @@
 
 A cplex-based scheduler c++ implementation of GearBox. 
 
-You can find a detailed description about our algorithm from the paper below:
+## Motivation and implementation reference
 
 [Exploiting Time-Malleability in Cloud-based Batch Processing Systems](http://www.doc.ic.ac.uk/~lm111/articles/mai13exploiting.pdf) 
-
 Luo Mai, Evangelia Kalyvianaki, Paolo Costa 
-
 7th ACM SIGOPS Workshop on Large-Scale Distributed Systems and Middleware (LADIS'13) co-located with SOSP'13. 
 
 ## Prerequisites for the GearBox scheduler
