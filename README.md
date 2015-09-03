@@ -13,7 +13,7 @@ You can find a detailed description of the scheduler in the paper below:
 1. boost library 1.53+
 2. cplex 12.4+ [(free academic licence)](https://www.ibm.com/developerworks/community/blogs/jfp/entry/cplex_studio_in_ibm_academic_initiative?lang=en)
 
-After installing these two libraries, change the corresponding directories in the resources/MakeFile so that the g++ compiler knows the correct paths to the libraries.
+After installing these two libraries, change the corresponding directories in the build/makefile so that the g++ compiler knows the correct paths to the libraries.
 
 ## Scheduler configuration
 
