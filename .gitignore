@@ -1,8 +1,5 @@
 *.o
-Debug
 lib
 src/scheduler
-Makefile
-MakeFile
 .cproject
 .project
