@@ -1,17 +1,17 @@
-# GearBox: Exploiting time-malleability of batch jobs in the Cloud
+# GearBox: Exploiting Deadline-Malleability in Cloud-based Batch Processing Systems
 
-A cplex-based scheduler c++ implementation of GearBox. 
+A batch processing cluster job scheduler. 
 
 ## Reference
 You can find a detailed description of the scheduler in the paper below:
 
-> [Exploiting Time-Malleability in Cloud-based Batch Processing Systems](http://www.doc.ic.ac.uk/~lm111/articles/mai13exploiting.pdf) 
-> Luo Mai, Evangelia Kalyvianaki, Paolo Costa
-> 7th ACM SIGOPS Workshop on Large-Scale Distributed Systems and Middleware (LADIS'13) co-located with SOSP'13
+[Exploiting Time-Malleability in Cloud-based Batch Processing Systems](http://www.doc.ic.ac.uk/~lm111/articles/mai13exploiting.pdf)  
+ Luo Mai, Evangelia Kalyvianaki, Paolo Costa  
+ 7th ACM SIGOPS Workshop on Large-Scale Distributed Systems and Middleware (LADIS'13) co-located with SOSP'13
 
 ## Prerequisites for the GearBox scheduler
 1. boost library 1.53+
-2. cplex 12.4+ [Free for academic licence](https://www.ibm.com/developerworks/community/blogs/jfp/entry/cplex_studio_in_ibm_academic_initiative?lang=en)
+2. cplex 12.4+ [(free academic licence)](https://www.ibm.com/developerworks/community/blogs/jfp/entry/cplex_studio_in_ibm_academic_initiative?lang=en)
 
 After installing these two libraries, change the corresponding directories in the resources/MakeFile so that the g++ compiler knows the correct paths to the libraries.
 
@@ -66,6 +66,4 @@ Each line represents the schedule of a single job.
 example configuration file: example/out
 
 # Copyright
-
-Source code released by MIT license
 Contact: luo.mai.cs@gmail.com
