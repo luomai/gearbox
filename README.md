@@ -8,14 +8,14 @@ You can find a detailed description of the scheduler in the paper below:
  7th ACM SIGOPS Workshop on Large-Scale Distributed Systems and Middleware (LADIS'13) co-located with SOSP'13
 
 ## Prerequisites for the GearBox scheduler
-1. GNU/Linux and Mac OS environment (Tested on 64-bit Ubuntu 12.04, 14.04)
-2. Cplex 12.4+ [(free academic licence)](https://www.ibm.com/developerworks/community/blogs/jfp/entry/cplex_studio_in_ibm_academic_initiative?lang=en) [(Setting up Cplex on GNU/Linux and MacOS)](http://www-01.ibm.com/support/docview.wss?uid=swg21444285)
+1. GNU/Linux and Mac OS environments (Tested on 64-bit Ubuntu 12.04 and 14.04)
+2. CPLEX 12.4+ [(Free educational or community licence)](https://www.ibm.com/developerworks/community/blogs/jfp/entry/cplex_studio_in_ibm_academic_initiative?lang=en) [(Setting up CPLEX on GNU/Linux and Mac OS)](http://www-01.ibm.com/support/docview.wss?uid=swg21444285)
 
 ## Build the scheduler
 
-If you install the cplex under the default directory, you can simply build the scheduler using src/build.sh; Otherwise, modify the paths to cplex libraries in src/build.sh accordingly.
+If you install the CPLEX under the default directory, you can simply build the scheduler using src/build.sh; Otherwise, modify the paths to CPLEX libraries in src/build.sh accordingly.
 
-Note: If you are using a 32-bit system, you need to use the correct 32-bit cplex library: x86_sles10_4.1 instead of x86_64_sles10_4.1.
+Note: If you are using a 32-bit system, you need to use the correct 32-bit CPLEX library: x86_sles10_4.1 instead of x86_64_sles10_4.1.
 
 ## Scheduler configuration
 
@@ -25,8 +25,8 @@ Configuration options
 * jobSizeError: the maximum allowable error in a slot allocation.
 * slotCount: the total number of available slots
 * timeSliceLength: the length of a schedule time slice.
-* solutionError (percentages): a stopping criteria for the cplex program
-* computationTimeLimit (seconds): a stopping criteria for the cpelx program
+* solutionError (percentages): a stopping criteria for the CPLEX program
+* computationTimeLimit (seconds): a stopping criteria for the CPLEX program
 
 example configuration file: example/config
 
@@ -67,5 +67,5 @@ Each line represents the schedule of a single job.
 
 example configuration file: example/out
 
-# Copyright
-Contact: luo.mai.cs@gmail.com
+# Contact
+luo.mai.cs@gmail.com
