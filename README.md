@@ -8,12 +8,14 @@ You can find a detailed description of the scheduler in the paper below:
  7th ACM SIGOPS Workshop on Large-Scale Distributed Systems and Middleware (LADIS'13) co-located with SOSP'13
 
 ## Prerequisites for the GearBox scheduler
-1. GNU/Linux and Mac OS environment (Tested on Ubuntu 12.04, 14.04)
+1. GNU/Linux and Mac OS environment (Tested on 64-bit Ubuntu 12.04, 14.04)
 2. Cplex 12.4+ [(free academic licence)](https://www.ibm.com/developerworks/community/blogs/jfp/entry/cplex_studio_in_ibm_academic_initiative?lang=en) [(Setting up Cplex on GNU/Linux and MacOS)](http://www-01.ibm.com/support/docview.wss?uid=swg21444285)
 
 ## Build the scheduler
 
 If you install the cplex under the default directory, you can simply build the scheduler using src/build.sh; Otherwise, modify the paths to cplex libraries in src/build.sh accordingly.
+
+Note: If you are using a 32-bit system, you need to use the correct 32-bit cplex library: x86_sles10_4.1 instead of x86_64_sles10_4.1.
 
 ## Scheduler configuration
 
